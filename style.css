@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eaeaea;
+  box-sizing: border-box;
+  width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.wrapper {
+  padding-top: 60px;
+}
+
+.input {
+  box-sizing: border-box;
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 500px;
+  height: 60px;
+  padding-left: 14px;
+  font-size: 25px;
+  line-height: 56px;
+}
+
+.autodop {
+  box-sizing: border-box;
+  display: none;
+  background: #e3e3e3;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.vision {
+  display: block;
+}
+
+.autodop li {
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+.autodop li:hover {
+  background-color: rgb(95, 183, 255);
+}
+
+.nodeRepo {
+  margin-top: 45px;
+}
+
+.card {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 90px;
+  border: 2px solid black;
+  background-color: violet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__info span {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.close-button {
+  background: inherit;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.close-button span {
+  display: block;
+}
+.close-button__part-one {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: red;
+  transform: rotate(45deg) translateY(1px);
+}
+
+.close-button__part-two {
+  content: "";
+  height: 2px;
+  width: 40px;
+  background-color: red;
+  transform: rotate(-45deg) translateY(-1px);
+}
